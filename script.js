@@ -44,11 +44,19 @@ $('.saveBtn').on('click', function (event) {
 
 });
 
-
+// puts text where it needs to go
 function renderSchedule() {
   Input = json.parse(localStorage.getItem('plannerInput'));
 
-  
+  h9.textContent = Input.h9
+  h10.textContent = Input.h10
+  h11.textContent = Input.h11
+  h12.textContent = Input.h12
+  h1.textContent = Input.h1
+  h2.textContent = Input.h2
+  h3.textContent = Input.h3
+  h4.textContent = Input.h4
+  h5.textContent = Input.h5
 }
 
 init();
