@@ -7,6 +7,7 @@ It's easy! just type in the boxes what you will be doing those hours and click t
 
 ## Credits
 These websites helped a lot.
+
 https://stackoverflow.com
 
 https://api.jquery.com/
